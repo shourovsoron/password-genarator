@@ -12,28 +12,23 @@
 <body>
 
     <div class="container">
-        <div class="title">
-            <img src="./images/notes.png" alt="">
-            <h1>Online Notes</h1>
-        </div>
-        <button class="create-note">
-            <img src="./images/edit.png" alt="">
-            Create Note
-        </button>
+        <div class="content">
+            <h1 class="title">Generate a </h1>
+            <h1 class="title2">Random Password</h1>
+            <div class="pass-box">
+                <input id="display" type="text">
+                <button onclick="copypass()"><i class="fa-regular fa-copy"></i></button>
 
-        <div class="notes-container">
-            <!-- <div class="note">
-                <p contenteditable="true" class="note-input"> </p>
-                <img  contenteditable="false" src="./images/delete.png" alt="">
             </div>
-        </div> -->
+            <button onclick="generatePass()" class="genarate-pass"><i class="fa-solid fa-bolt"></i> Genarate Password</button>
+        </div>
 
     </div>
 
     
 
 
-    <script type = "text/javascript" src="./main.js">
+    <script type = "text/javascript" src="./slider.js">
     </script>
 
 
